@@ -31,10 +31,12 @@ def main():
 
 
 def compute_pi(samples: int) -> float:
-    """Compute the pi number using the Monte-Carlo method.
+    """
+    Compute the pi number using the Monte-Carlo method.
 
     Measure  the ratio between points that are inside a circle of radius 1
     and a square of size 1.
+    This function was written by Felipe Zapata.
     """
     # Take random x and y cartesian coordinates
     xs = np.random.uniform(size=samples)
